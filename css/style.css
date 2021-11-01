@@ -7,6 +7,7 @@ body{
     box-sizing: border-box;
     background:rgba(28,34,48,255);
     font-family: 'Rubik', sans-serif;
+    min-width: 350px;
 }
 
 /* navbar */
@@ -313,7 +314,7 @@ footer{
     color:white;
     display:grid;
     grid-template-areas: "a b c d e";
-    grid-template-columns:600px 350px 350px 370px 300px;
+    grid-template-columns:500px 250px 250px 130px 190px;
 
     gap:30px;
     z-index: -1;

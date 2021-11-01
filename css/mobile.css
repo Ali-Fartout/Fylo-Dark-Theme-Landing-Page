@@ -1,0 +1,85 @@
+@media(max-width:767px){
+
+.header a{
+    padding: 15px 190px;
+}
+
+
+.features{
+    display:grid;
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "d";
+    grid-template-columns: 1fr;
+
+
+}
+.content{
+    grid-template-areas: "a"
+                         "b";
+    grid-template-columns: 1fr;
+
+}
+
+.image{
+    padding-left: 30px;
+}
+.explainer{
+    padding-top: 40px;
+}
+
+.team{
+    display:grid;
+    grid-template-areas: "a"
+                         "b"
+                         "c";
+    grid-template-columns: 1fr;
+
+}
+.quotation{
+    grid-template-columns: 123px 130px 120px;
+}
+.sign-up{
+    margin:0;
+}
+
+.form input {
+    width: 250px;
+    }
+
+footer{
+    display:grid;
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "e";
+    grid-template-columns: 1fr;
+}
+#position{
+    grid-area:a;
+    font-size:17px;
+}
+footer > ul[id="contact"] {
+    grid-area:b;
+    margin-left: 225px;
+    }
+footer >ul[id="options-1"] {
+    grid-area:c;
+    margin-left: 145px;
+}
+
+footer >ul[id="options-2"] {
+    grid-area:c;
+    margin-left: 400px;
+    top: 300px;
+
+}
+
+footer > ul[id="social-links"]{
+
+        grid-area:e;
+    margin-left: 245px;
+
+    }
+}
